@@ -1,1 +1,10 @@
 In this sesssion we are going to examine data simulation. Specifically, we’ll look at why simulating data sets before you run a study can be incredibly helpful in terms of determining whether you have enough power in your design to detect the effect size of interest. Data simulation can also be helpful in ensuring that you are able to build the statistical model that you want to when it comes to analysing data from your experiment. This can be particularly important in the context of mixed models where you need to ensure the appropriate number of observations at the different levels of your random effects in order to be able to estimate the model parameters. Data simulation can also be helpful in understanding concepts related to the distribution of p-values as a function of sample size, effect sizes etc.
+
+# Challenge
+Change the simulation code at the end of the worksheet so that N=200 for each simulation. Do you now find that for 80 out of 100 simulated datasets you are detecting a statistically significant difference? What happens if you vary the size of the standard deviations around the means for the two conditions? If variability around the mean goes up (i.e., the standard deviation is increased), do you need more or fewer participants to detect the effect with .8 power? 
+
+Now re-do the simulation for cases where you’re looking for a difference between the conditions of 40 msec. Assuming the standard deviation is the same as in the worksheet (i.e., 50 msec), what Cohen’s d does this correspond to? How many Ss do we now need to detect the effect with .8 power? Given traditional psychology experiments into these kinds of effect differences typically involved between 30 and 40 participants, what level of power do you estimate these studies have for an effect size of that magnitude?
+
+Rather than running a succession of t-tests, can you re-write the code so that it runs a succession of ANOVAs?
+
+# At what point do you say you have enough power?
